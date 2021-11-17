@@ -126,6 +126,7 @@ FONT SIZE SYSTEM (px)
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {

@@ -1,23 +1,9 @@
-// const iconClose = document.querySelector('.icon-close');
-// const iconOpen = document.querySelector('.icon-open');
-// const mainMenu = document.querySelector('.main-nav');
+///////////////////////////////////////////////////
+// Make mobile navigation work
 
+const btnNav = document.querySelector('.btn-mobile-nav');
+const headerEl = document.querySelector('.header');
 
-
-// let nav = ()=>{
-//     mainMenu.classList.toggle('nav-open');
-// }
-
-// iconOpen.addEventListener('click', ()=>{
-//     nav()
-
-//     iconOpen.style.display = 'none';
-//     iconClose.style.display = 'block';
-// })
-
-// iconClose.addEventListener('click', ()=>{
-//     nav()
-
-//     iconOpen.style.display = 'block';
-//     iconClose.style.display = 'none';
-// })
+btnNav.addEventListener('click', ()=>{
+    headerEl.classList.toggle('nav-open')
+})
